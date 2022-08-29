@@ -1,0 +1,55 @@
+.notecard {
+    background-color: rgb(88, 0, 143);
+    width: 450px;
+    height: auto;
+    border-radius: 8px;
+    margin: 150px auto 0px auto;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #939393;
+    background-color: #191919;
+}
+/*body is an element so doesn't need a . before it
+'.' is only used for classes*/
+
+
+.note-title {
+    color: #dddddd;
+    font-size: 18px; 
+    font-weight: 500
+    margin-top: 10px;
+    margin-bottom: 500; 
+}
+
+.notecard-thumbnail {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    /* this makes the corners rounded */
+}
+
+.btn-delete {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #595959; 
+    background-color: #212121;
+    border: 2px solid #595959;
+    border-radius: 5px;
+}
+
+.btn-delete:hover {
+    color: #dddddd;
+    background-color: #393939;
+    border: 2px solid #dddddd;
+    cursor: pointer
+}
