@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>BunBun Bake Shop</title>
+        <link rel="stylesheet" href="/homework-materials/HW1/solution-hw1/css/style.css">
+    </head>
+    <body>
+        <h1>
+            <a href="index.html">
+                <img src="/homework-materials/HW1/logo/logo-01.svg" width= 250px alt="Bun Bun Bake Shop Logo"/>
+            </a>
+        </h1>
+
+    <nav class="tabs">
+        <a href="index.html" class="products">PRODUCTS</a>
+        <br>
+        <br>
+        <a href="cart.html" class="cart">CART</a>
+
+    </nav>
+    <section>
+        <br>
+        <br>
+        <p1 id="cart">Original cinnamon roll</p1>
+        <br>
+        <br>
+        <img id="detail-pic" src="/homework-materials/HW1/products/original-cinnamon-roll.jpg" width="300" alt="Original cinnamon roll">
+        
+        <div>
+            <figcaption>Customize our delicious, hand-made cinammon roll to your liking!</figcaption>
+        </div>
+
+        <article  class="drop-down-titles">
+            <div>
+                <label id="text">Glazing:</label><br>
+                <select name="glaze-types" id="glaze-types">
+                    <option value="original">Keep original</option>
+                    <option value="sugar">Sugar milk</option>
+                    <option value="vanilla">Vanilla milk</option>
+                    <option value="double-chocolate">Double chocolate</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label id="text">Pack size:</label><br>
+                <select name="pack-sizes" id="pack-sizes">
+                    <option value="1">1</option>
+                    <option value="3">3</option>
+                    <option value="6">6</option>
+                    <option value="12">12</option>
+                </select>
+            </div>
+        </article>
+
+        <div id="buttondiv">
+            $2.49 <a href="cart.html" class="cart-button">Add to Cart</a>
+        </div>
+    </section>
+
+    </body>
+
+</html>

@@ -1,0 +1,156 @@
+h1 {
+    /* black line under logo  */
+    border-bottom: 5px solid black;
+    margin-bottom: auto;
+}
+
+body {
+    /* make everything same font  */
+    font-family: Helvetica
+}
+
+
+.tabs {
+/* navigation */
+    text-align: center;
+    color: black;
+    margin: 10px auto auto 10px 
+}
+
+a {
+    /* no links can be blue */
+    color: black;
+    text-decoration: none;
+    font-size: small;
+}
+
+a.products:hover {
+    /* gallery page link  */
+    color: black;
+    background-color: #ff0;
+    font-weight:bold;
+}
+
+a.cart:hover {
+    /* cart link  */
+    color: black;
+    background-color: #ff0;
+    font-weight: bold; 
+}
+
+p1 {
+    /* headers on page */
+    font-size: x-large;
+}
+
+/* This is for buttons */
+section {
+    /* align the title of what you chose, picture, and drop downs  */
+    text-align: center;
+}
+
+.add2cart {
+    height: 100%;
+    border: none;
+    text-align: left;
+}
+
+
+#highlight:hover {
+    /* to highlight the button  */
+    background-color: #ff0;
+    font-weight: bold;
+    width: 155px;
+    border: 1px solid #ff0;
+}
+
+#highlight {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#gallery-pic {
+    border: 2px solid black;
+    width: 150px; 
+}
+
+
+/* CSS for Product Details Page  */
+
+#detail-pic {
+    border: 2px solid black;
+    /* same pic as above but in the details page  */
+}
+
+figcaption {
+    max-width: 150px ;
+    font-size:80%;
+    margin: 10px auto 30px auto;
+    text-align: left;
+}
+
+.drop-down-titles {
+    /* includes glazing and how-many */
+    padding: 30px ;
+    margin: auto; 
+    width: fit-content;
+    text-align: left;
+}
+
+#glaze-types {
+    width: 150px;
+    margin: 5px auto auto auto;
+}
+
+#pack-sizes {
+    width: 150px;
+    margin: 5px auto auto auto;
+}
+
+.cart-button:hover {
+    /* to highlight the button  */
+    background-color: #ff0;
+    font-weight: bold;
+}
+
+.cart-button {
+    border: 3px solid black;
+    padding: 4px 15px;
+}
+
+#buttondiv {
+    margin-bottom: 250px;
+}
+
+.price {
+    font-size: smaller;
+    font-family: sans-serif;
+}
+
+#text {
+    text-align: left;
+}
+
+
+/* shopping cart */
+
+#in-cart {
+    border: 2px solid black;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.shop-section {
+    margin: 50px;
+    border-bottom: 4px solid black;
+}
+
+.total {
+    text-align: center;
+}
+
+.checkout {
+    text-align: center;
+    margin: 50px auto 250px auto;
+}
