@@ -17,4 +17,5 @@
 
 .footer-element {
   flex: 1 0 auto;
+  /* can also be written as flex-grow: 1; */
 }
